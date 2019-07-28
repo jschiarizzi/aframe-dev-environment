@@ -17,6 +17,6 @@ app.get('/', function(request, response) {
 });
 
 // listen for requests :)
-var listener = app.listen(process.env.PORT, function() {
-  console.log('Your app is listening on port ' + listener.address().port);
+var listener = app.listen(80, function() {
+  console.log('Your app is running. Check out port ' + listener.address().port);
 });
