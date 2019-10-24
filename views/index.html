@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome to Aframe WebVR</title>
+    <title>Fourth Wave web VR with Aframe</title>
     <meta name="description" content="Hello, WebVR! - A-Frame">
-    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
@@ -11,7 +11,6 @@
           <img id="fw" src="https://i.imgur.com/soQPk83.jpg">
           <img id="do" src="https://i.imgur.com/ZGipJTo.jpg">
       </a-assets>
-      
       
       <a-box position="0 2 -3"  width="2" depth="0.25" src="#fw" shadow >
               
@@ -24,12 +23,16 @@
         
       </a-box >
       
-      <a-box position="-2 1 -4"  width="1.5" depth="1.5" src="#do" shadow></a-box></a-box>
-
+      <a-box position="-2 1 -4"  width="1.5" depth="1.5" src="#do" shadow></a-box>
+            
       <a-cylinder position="0 0.75 -3" radius="0.175" height="1.5" color="#FFC65D" shadow></a-cylinder>
       
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
       <a-sky color="#89baf9"></a-sky>
     </a-scene>
+    
+      <div class="explanation">
+        Hi, What's up.
+      </div>
   </body>
 </html>
