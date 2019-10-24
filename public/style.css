@@ -9,3 +9,16 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
 }
+
+.explanation{
+  color: white;
+  background-color: #F7941D;
+  width: 30%;
+  height: 10vh;
+  border-color: white;
+  
+  position: -webkit-fixed; /* Safari */
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
